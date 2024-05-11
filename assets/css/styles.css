@@ -20,6 +20,7 @@ nav.navbar {
     color: #ffc107 !important; /* warna teks link saat dihover */
 }
 .custom-toggler.navbar-toggler {
+    background-color: white;
     border-color: transparent;
     color: white;
 }
