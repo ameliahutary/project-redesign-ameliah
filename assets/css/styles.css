@@ -20,11 +20,10 @@ nav.navbar {
     color: #ffc107 !important; /* warna teks link saat dihover */
 }
 .custom-toggler.navbar-toggler {
-    background-color: white;
+    background-color: rgb(194, 194, 194);
     border-color: transparent;
     color: white;
 }
 .custom-toggler.navbar-toggler:hover {
     color: #ffc107; /* warna ikon toggle saat dihover */
-    width: 1px;
 }
