@@ -15,20 +15,19 @@ nav.navbar {
     font-size: medium;
 }
 .navbar-nav .nav-item.active .nav-link {
-    border-bottom: 3px solid #ffc107;
+    border-bottom: 3px solid #2559dc;
 }
 .navbar-nav .nav-link:hover {
-    color: #ffc107 !important; /* warna teks link saat dihover */
+    color: #2559dc !important; /* warna teks link saat dihover */
 }
 .btn.btn-outline-success {
-    color: #ffc107;
-    border-color: #ffc107;
+    color: #2559dc;
+    border-color: #2559dc;
 }
 .custom-toggler.navbar-toggler {
     background-color: rgb(194, 194, 194);
     border-color: transparent;
-    color: white;
 }
 .custom-toggler.navbar-toggler:hover {
-    color: #ffc107; /* warna ikon toggle saat dihover */
+    color: #2559dc; /* warna ikon toggle saat dihover */
 }
