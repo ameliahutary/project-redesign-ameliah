@@ -23,7 +23,7 @@ nav.navbar {
     border-color: transparent;
     color: white;
 }
-.custom-toggler.navbar-toggler-icon {
+.custom-toggler.navbar-toggler .navbar-toggler-icon {
     color: white;
 }
 .custom-toggler.navbar-toggler:hover {
