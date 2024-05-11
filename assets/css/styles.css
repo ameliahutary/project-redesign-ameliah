@@ -21,6 +21,7 @@ nav.navbar {
 }
 .btn.btn-outline-success {
     color: #ffc107;
+    border-color: #ffc107;
 }
 .custom-toggler.navbar-toggler {
     background-color: rgb(194, 194, 194);
