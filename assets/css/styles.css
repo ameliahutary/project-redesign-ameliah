@@ -26,4 +26,5 @@ nav.navbar {
 }
 .custom-toggler.navbar-toggler:hover {
     color: #ffc107; /* warna ikon toggle saat dihover */
+    width: 1px;
 }
