@@ -12,7 +12,7 @@ nav.navbar {
     color: white !important; /* warna teks link */
     font-weight: bold;
 }
-.navbar-nav .nav-link :active {
+.navbar-nav .nav-link .active {
     border-bottom: 2px solid white;
 }
 .navbar-nav .nav-link:hover {
