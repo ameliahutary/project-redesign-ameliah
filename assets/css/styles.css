@@ -23,6 +23,9 @@ nav.navbar {
     border-color: transparent;
     color: white;
 }
+.custom-toggler .navbar-toggler-icon {
+    color: pink;
+}
 .custom-toggler.navbar-toggler:hover {
     color: #ffc107; /* warna ikon toggle saat dihover */
 }
