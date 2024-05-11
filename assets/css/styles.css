@@ -19,6 +19,9 @@ nav.navbar {
 .navbar-nav .nav-link:hover {
     color: #ffc107 !important; /* warna teks link saat dihover */
 }
+.btn.btn-outline-success {
+    color: #ffc107;
+}
 .custom-toggler.navbar-toggler {
     background-color: rgb(194, 194, 194);
     border-color: transparent;
