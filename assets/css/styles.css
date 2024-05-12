@@ -1,5 +1,4 @@
 .header{
-    color: #000;
     background-color: #fff;
     padding: 15px 0;
 }
@@ -14,6 +13,7 @@
     font-size: 25px; 
     margin-top: 5px; 
     font-weight: bold; 
+    color: #0093DD;
 }
 
 .header-text p {
@@ -32,19 +32,19 @@ nav.navbar {
     font-size: medium;
 }
 .navbar-nav .nav-item.active .nav-link {
-    border-bottom: 3px solid #2559dc;
+    border-bottom: 3px solid #0093DD;
 }
 .navbar-nav .nav-link:hover {
-    color: #2559dc !important; /* warna teks link saat dihover */
+    color: #0093DD !important; /* warna teks link saat dihover */
 }
 .btn.btn-outline-success {
-    color: #2559dc;
-    border-color: #2559dc;
+    color: #0093DD;
+    border-color: #0093DD;
 }
 .custom-toggler.navbar-toggler {
     background-color: rgb(194, 194, 194);
     border-color: transparent;
 }
 .custom-toggler.navbar-toggler:hover {
-    color: #2559dc; /* warna ikon toggle saat dihover */
+    color: #0093DD; /* warna ikon toggle saat dihover */
 }
