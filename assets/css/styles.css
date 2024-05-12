@@ -50,5 +50,5 @@ nav.navbar {
     color: #0093DD; /* warna ikon toggle saat dihover */
 }
 .fas .fa-search {
-    padding-right: 20px;
+    margin-right: 10px;
 }
