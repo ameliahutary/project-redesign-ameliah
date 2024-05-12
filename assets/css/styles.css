@@ -4,7 +4,19 @@
     padding: 15px 0;
 }
 .header-logo img{
-    width: 70px;
+    width: 100px;
+}
+.header-text {
+    padding-left: 20px; /* jarak kiri teks dari logo */
+}
+.header-text h1 {
+    font-size: 25px; 
+    margin-top: 5px; 
+    font-weight: bold; 
+}
+
+.header-text p {
+    margin-bottom: 10px;
 }
 
 nav.navbar {
