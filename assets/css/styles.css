@@ -6,10 +6,6 @@
 .header-logo {
     width: 70px;
 }
-.logo-and-text {
-    display: flex; /* Menggunakan flexbox untuk tata letak */
-    align-items: center; /* Menyamakan vertikal */
-}
 
 nav.navbar {
     padding: 10px 0;
@@ -35,7 +31,6 @@ nav.navbar {
 .custom-toggler.navbar-toggler {
     background-color: rgb(194, 194, 194);
     border-color: transparent;
-    align-items: self-end;
 }
 .custom-toggler.navbar-toggler:hover {
     color: #2559dc; /* warna ikon toggle saat dihover */
