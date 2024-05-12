@@ -51,4 +51,6 @@ nav.navbar {
 }
 .search-button {
     margin-right: 10px;
+    border-color: #0093DD;
+    color: #0093DD;
 }
