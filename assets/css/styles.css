@@ -5,6 +5,7 @@
 }
 .header-logo img{
     width: 100px;
+    display: inline-block;
 }
 .header-text {
     padding-left: 20px; /* jarak kiri teks dari logo */
