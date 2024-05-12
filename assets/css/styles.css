@@ -49,6 +49,6 @@ nav.navbar {
 .custom-toggler.navbar-toggler:hover {
     color: #0093DD; /* warna ikon toggle saat dihover */
 }
-.btn.btn-outline-primary.ms-2 {
-    padding-right: 10px;
+.fas .fa-search {
+    padding-right: 20px;
 }
