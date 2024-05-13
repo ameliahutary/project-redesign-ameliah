@@ -168,8 +168,8 @@ nav.navbar {
 }
 
 .separator {
-    border: none;
-    height: 10px; 
+    border: 0;
+    height: 1px; 
     background-color: black; 
 }
 
