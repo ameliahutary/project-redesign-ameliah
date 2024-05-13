@@ -78,14 +78,14 @@ nav.navbar {
     padding: 5px; 
     margin-bottom: 10px;
     display: inline-block;
-    font-size: 11px;
+    font-size: 15px;
 }
 .marquee {
     position: absolute;
     width: 100%;
     padding: 5px 0;
     color: #fff;
-    font-size: 10px
+    font-size: 12px
 }
 .marquee a {
     color: #fff;
