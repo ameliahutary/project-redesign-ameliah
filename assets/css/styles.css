@@ -56,7 +56,7 @@ nav.navbar {
 }
 
 .carousel-item img {
-    height: 300px; /* Tinggi gambar */
-    width: 100%; /* Lebar gambar, dapat disesuaikan */
-    object-fit: cover; /* Memastikan gambar terisi secara proporsional dalam kotak */
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
