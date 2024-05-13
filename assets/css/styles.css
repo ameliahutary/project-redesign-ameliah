@@ -125,3 +125,10 @@ nav.navbar {
     background-color: #007bb3;
 }
 
+.selayang-pandang {
+    background-color: #0093DD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
