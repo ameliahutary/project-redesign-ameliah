@@ -53,21 +53,6 @@ nav.navbar {
     border-color: #0093DD;
     color: #0093DD;
 }
-.search-box {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 999;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 5px;
-}
-
-#menu-search.active .search-box {
-    display: block;
-}
-
 
 .carousel-inner {
     position: relative;

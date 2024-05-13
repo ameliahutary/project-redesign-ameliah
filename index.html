@@ -71,20 +71,23 @@
                         <a class="nav-link" href="galeri.html">Galeri</a>
                     </li>
                 </ul>
-                <li class="menu-search" id="menu-search">
+                <li class="menu-search">
                     <span class="sep"></span>
-                    <i class="fa fa-search search-btn" id="search-btn"></i>
-                    <div class="search-box" id="search-box">
+                    <a href="#" class="btn btn-outline-primary search-button">
+                        <i class="fa fa-search search-btn show-search-icon"></i>
+                    </a>
+                    <div class="search-box" style="display: none;">
                         <form action="search" method="post">
                             <div class="input-group">
-                                <input type="text" name="text_search" placeholder="Search" class="form-control">
+                                <input type="text" name="text_search" placeholder="Search" class="form-control" fdprocessedid="n3choo">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-primary" type="submit">Search</button>
+                                    <button class="btn btn-primary" type="submit" fdprocessedid="hvf7a">Search</button>
                                 </span>
                             </div>
                         </form>
                     </div> 
                 </li>
+                
                 <a href="login.php">
                     <button class="btn btn-outline-success" type="button">Login</button>
                 </a>
