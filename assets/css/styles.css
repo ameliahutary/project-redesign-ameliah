@@ -1,5 +1,5 @@
 .header{
-    background-color: #fff;
+    background-color: #f0f0f0;
     padding: 15px 0;
 }
 .header-logo img{
@@ -42,7 +42,7 @@ nav.navbar {
     border-color: #0093DD;
 }
 .custom-toggler.navbar-toggler {
-    background-color: rgb(194, 194, 194);
+    background-color: #f0f0f0;
     border-color: transparent;
 }
 .custom-toggler.navbar-toggler:hover {
