@@ -106,8 +106,9 @@ nav.navbar {
     width: 100%;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
-.about h3 {
+.about h2 {
+    color: #0093DD;
 }
-.about p {
-}
+
