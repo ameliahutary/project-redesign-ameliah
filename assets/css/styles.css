@@ -168,8 +168,8 @@ nav.navbar {
 }
 
 hr {
-    border: 1px solid #ccc; /* Warna garis dan ketebalan */
-    border-bottom: none; /* Hanya garis horizontal tanpa vertikal */
+    border: 1px solid black;
+    border-bottom: none; 
 }
 
 
