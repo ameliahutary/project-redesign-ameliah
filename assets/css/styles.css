@@ -54,3 +54,9 @@ nav.navbar {
     border-color: #0093DD;
     color: #0093DD;
 }
+
+.carousel-item img {
+    height: 300px; /* Tinggi gambar */
+    width: 100%; /* Lebar gambar, dapat disesuaikan */
+    object-fit: cover; /* Memastikan gambar terisi secara proporsional dalam kotak */
+}
