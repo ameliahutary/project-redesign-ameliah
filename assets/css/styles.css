@@ -166,3 +166,9 @@ nav.navbar {
     width: 100%;
     height: auto;
 }
+
+.berita {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
