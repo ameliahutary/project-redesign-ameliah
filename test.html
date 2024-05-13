@@ -24,7 +24,6 @@
         }
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .card-img-top {
             border-top-left-radius: 15px;
@@ -32,13 +31,18 @@
             height: 200px;
             object-fit: cover;
         }
-        .card-body {
+        .card-bodyy {
             padding: 20px;
+            height: 150px;
+            text-decoration: none;
         }
-        .news-date {
+        .card-bodyy .news-date {
             font-size: 14px;
             color: #6c757d;
             text-decoration: none;
+        }
+        .card-body {
+            padding: 20px;
         }
         .news-title {
             font-weight: bold;
@@ -46,17 +50,13 @@
             color: #333;
         }
         .custom-btn-color {
-            background-color: #0093DD;
-            color: #fff;
-            border: none;
-            border-radius: 20px;
-            padding: 8px 20px;
-            font-size: 14px;
-            transition: background-color 0.3s ease;
+            color: #0093DD;
+            border-color: #0093DD;
         }
 
         .custom-btn-color:hover {
-            background-color: #007bb5;
+            background-color: #0093DD;
+            color: #fff;
         }
 
     </style>
@@ -66,16 +66,87 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <a href="detail.php?id=48">
-                        <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
+                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
+                    <div class="card-bodyy">
+                        <span class="news-date">29 November 2022</span>
+                        <h5 class="news-title">VISI DAN MISI SMAN 1 WELERI</h5>
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit">Baca Lengkap Artikel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="detail.php?id=47">
+                        <img src="assets/img/carousel/slide-3.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">16 November 2022</span>
+                            <h5 class="news-title">Meningkatkan Cinta Nabi dengan Mengenal Kepribadiannya melalui Peringatan Maulid Nabi Muhammad SAW</h5>
+                        </div>
                         <div class="card-body">
-                            <span class="news-date">29 November 2022</span>
-                            <h5 class="news-title">VISI DAN MISI SMAN 1 WELERI</h5>
-                            <button class="btn btn-primary custom-btn-color rounded-pill" type="submit">Baca Lengkap Artikel</button>
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit">Baca Lengkap Artikel</button>
                         </div>
                     </a>
                 </div>
             </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="detail.php?id=46">
+                        <img src="gambar/1668571032435SAWEL MENANAM.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">16 November 2022</span>
+                            <h5 class="news-title">Peneguhan Dharma Cinta Alam dan Kasih Sayang Sesama Manusia, SMA Negeri 1 Weleri Menghijaukan Lingku</h5>
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit">Baca Lengkap Artikel</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="detail.php?id=48">
+                        <img src="gambar/1669703928292VISI MISI-1.png" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">29 November 2022</span>
+                            <h5 class="news-title">VISI DAN MISI SMAN 1 WELERI</h5>
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit">Baca Lengkap Artikel</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="detail.php?id=47">
+                        <img src="gambar/1668572549703MAULID NABI.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">16 November 2022</span>
+                            <h5 class="news-title">Meningkatkan Cinta Nabi dengan Mengenal Kepribadiannya melalui Peringatan Maulid Nabi Muhammad SAW</h5>
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit">Baca Lengkap Artikel</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="detail.php?id=46">
+                        <img src="gambar/1668571032435SAWEL MENANAM.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">16 November 2022</span>
+                            <h5 class="news-title">Peneguhan Dharma Cinta Alam dan Kasih Sayang Sesama Manusia, SMA Negeri 1 Weleri Menghijaukan Lingku</h5>
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit">Baca Lengkap Artikel</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
             <!-- Add more news cards here -->
         </div>
     </div>
