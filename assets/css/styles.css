@@ -121,7 +121,7 @@ nav.navbar {
     transition: background-color 0.3s ease;
 }
 
-.btn-read-more:hover {
+.btn-custom:hover {
     background-color: #007bb3;
 }
 
