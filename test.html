@@ -8,38 +8,66 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Your custom CSS -->
     <style>
-        .news-heading {
-            text-align: center;
-            font-family: Garamond;
-            margin-top: 20px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
         }
-
-        .news-container {
-            margin-top: 40px;
+        .container {
+            margin-top: 50px;
         }
-
-        .news-card {
-            margin-bottom: 40px;
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-img-top {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .news-date {
+            font-size: 14px;
+            color: #6c757d;
+        }
+        .news-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .btn-read-more {
+            background-color: #0093DD;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-read-more:hover {
+            background-color: #007bb5;
         }
     </style>
 </head>
 <body>
-    <br>
-    <h1 class="news-heading">Berita</h1>
-    <br>
-    <div class="container news-container">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-lg-4">
-                <div class="card shadow news-card">
+            <div class="col-md-4 mb-4">
+                <div class="card">
                     <a href="detail.php?id=48">
-                        <img src="assets/img/carousel/slide-1.jpg" class="card-img-top rounded-top-3" alt="news" height="240px"/>
+                        <img src="gambar/1669703928292VISI MISI-1.png" class="card-img-top" alt="news">
                         <div class="card-body">
-                            <span class="fs--1 text-900">
-                                29 November 2022
-                                <div class="float-end"><img src="icon/mata.png"> 1231</div>
-                            </span>
-                            <h5 class="font-base fs-lg-0 fs-xl-1 my-3">VISI DAN MISI SMAN 1 WELERI</h5>
-                            <button class="btn btn-outline-primary rounded-pill" type="submit">Baca Lengkap Artikel</button>
+                            <span class="news-date">29 November 2022</span>
+                            <h5 class="news-title">VISI DAN MISI SMAN 1 WELERI</h5>
+                            <button class="btn btn-read-more">Baca Lengkap Artikel</button>
                         </div>
                     </a>
                 </div>
