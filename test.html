@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita</title>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom CSS -->
+    <style>
+        .news-heading {
+            text-align: center;
+            font-family: Garamond;
+            margin-top: 20px;
+        }
+
+        .news-container {
+            margin-top: 40px;
+        }
+
+        .news-card {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h1 class="news-heading">Berita</h1>
+    <br>
+    <div class="container news-container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4">
+                <div class="card shadow news-card">
+                    <a href="detail.php?id=48">
+                        <img src="gambar/1669703928292VISI MISI-1.png" class="card-img-top rounded-top-3" alt="news" height="240px"/>
+                        <div class="card-body">
+                            <span class="fs--1 text-900">
+                                29 November 2022
+                                <div class="float-end"><img src="icon/mata.png"> 1231</div>
+                            </span>
+                            <h5 class="font-base fs-lg-0 fs-xl-1 my-3">VISI DAN MISI SMAN 1 WELERI</h5>
+                            <button class="btn btn-outline-primary rounded-pill" type="submit">Baca Lengkap Artikel</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Add more news cards here -->
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
