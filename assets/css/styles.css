@@ -167,6 +167,12 @@ nav.navbar {
     height: auto;
 }
 
+.separator {
+    border: none;
+    height: 1px; 
+    background-color: black; 
+}
+
 .berita {
     padding: 20px;
     background-color: #f0f0f0;
