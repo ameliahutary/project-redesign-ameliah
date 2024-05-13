@@ -55,8 +55,16 @@ nav.navbar {
 }
 
 .carousel-inner {
-    filter: blur(5px); /* Menambahkan efek blur dengan radius 5px */
-    -webkit-filter: blur(5px); /* Untuk dukungan browser WebKit */
+    position: relative; /* Diperlukan untuk posisi relatif dalam container carousel */
+}
+
+.carousel-overlay {
+    position: absolute; /* Memposisikan overlay di atas carousel */
+    bottom: 0; /* Mengatur overlay pada bagian bawah */
+    left: 0; /* Memulai overlay dari sisi kiri */
+    width: 100%; /* Menyamakan lebar overlay dengan carousel */
+    height: 40%; /* Mengatur tinggi overlay */
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7)); /* Menerapkan efek gradasi transparan dari atas ke bawah */
 }
 
 .carousel-item img {
