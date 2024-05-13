@@ -167,11 +167,11 @@ nav.navbar {
     height: auto;
 }
 
-.separator {
-    border: 0;
-    height: 1px; 
-    background-color: black; 
+hr {
+    border: 1px solid #ccc; /* Warna garis dan ketebalan */
+    border-bottom: none; /* Hanya garis horizontal tanpa vertikal */
 }
+
 
 .berita {
     padding: 20px;
