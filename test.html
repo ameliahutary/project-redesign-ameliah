@@ -9,6 +9,7 @@
     <!-- Your custom CSS -->
     <style>
         body {
+            font-family: Arial, sans-serif;
             background-color: #f8f9fa;
         }
         .container {
@@ -34,27 +35,30 @@
             padding: 20px;
             height: 150px;
         }
-        .card-bodyy .news-date {
+        .card-body {
+            padding: 20px;
+        }
+        .news-date {
             font-size: 14px;
             color: #6c757d;
             text-decoration: none; /* Hilangkan garis bawah */
-        }
-        .card-body {
-            padding: 20px;
         }
         .news-title {
             font-weight: bold;
             margin-bottom: 15px;
             color: #333;
         }
-        .custom-btn-color {
-            color: #0093DD;
-            border-color: #0093DD;
-        }
-
-        .custom-btn-color:hover {
+        .btn-read-more {
             background-color: #0093DD;
             color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-read-more:hover {
+            background-color: #007bb5;
         }
 
     </style>
