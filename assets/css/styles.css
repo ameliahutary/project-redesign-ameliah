@@ -55,18 +55,18 @@ nav.navbar {
 }
 
 .carousel-inner {
-    position: relative; /* Diperlukan untuk posisi relatif dalam container carousel */
+    position: relative;
 }
 
-.carousel-overlay {
-    position: absolute; /* Memposisikan overlay di atas carousel */
-    bottom: 0; /* Mengatur overlay pada bagian bawah */
-    left: 0; /* Memulai overlay dari sisi kiri */
-    width: 100%; /* Menyamakan lebar overlay dengan carousel */
-    height: 40%; /* Mengatur tinggi overlay */
-    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7)); /* Menerapkan efek gradasi transparan dari atas ke bawah */
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0));
+    padding: 20px;
+    color: white;
 }
-
 .carousel-item img {
     height: 400px;
     width: 100%;
