@@ -81,6 +81,7 @@ nav.navbar {
 }
 .marquee {
     position: absolute;
+    width: 100%;
     padding: 8px 0;
     color: #fff;
     font-size: 12px
@@ -146,17 +147,22 @@ nav.navbar {
     text-align: center;
 }
 
+.portal-siswa {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
 .portal-siswa .container {
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .portal-siswa .row > div {
-    padding: 10px;
-  }
-  .portal-siswa img {
-    max-width: 100%;
+    max-width: 1200px;
+}
+
+.portal-siswa .card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.portal-siswa .card img {
+    width: 100%;
     height: auto;
-  }
+}
