@@ -76,7 +76,6 @@ nav.navbar {
 .pengumuman {
     color: #fff; 
     padding: 8px 15px; 
-    margin-bottom: 10px;
     display: inline-block;
     font-size: 12px;
 }
@@ -95,4 +94,22 @@ nav.navbar {
 }
 .marquee a:hover {
     text-decoration: underline;
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.about h3 {
+}
+.about p {
+    font-size: 18px;
+    color: #fff;
 }
