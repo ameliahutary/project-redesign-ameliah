@@ -54,14 +54,13 @@ nav.navbar {
     color: #0093DD;
 }
 
+.carousel-inner {
+    filter: blur(5px); /* Menambahkan efek blur dengan radius 5px */
+    -webkit-filter: blur(5px); /* Untuk dukungan browser WebKit */
+}
+
 .carousel-item img {
     height: 400px;
     width: 100%;
     object-fit: cover;
-}
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang dengan opasitas */
-    color: white; /* Warna teks */
-    border-radius: 5px; /* Sudut bulat pada caption */
-    padding: 10px; /* Ruang di sekitar teks */
 }
