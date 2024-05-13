@@ -153,11 +153,12 @@ nav.navbar {
 
 .portal-siswa .container {
     max-width: 1200px;
+    margin-bottom: 20px;
 }
 
 .portal-siswa .card {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .portal-siswa .card img {
