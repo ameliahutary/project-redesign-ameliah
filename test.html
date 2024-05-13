@@ -8,6 +8,56 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Your custom CSS -->
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-img-top {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-bodyy {
+            padding: 20px;
+            height: 150px;
+        }
+        .card-bodyy .news-date {
+            font-size: 14px;
+            color: #6c757d;
+            text-decoration: none;
+            text-decoration-line: none;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .news-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .custom-btn-color {
+            color: #0093DD;
+            border-color: #0093DD;
+        }
+
+        .custom-btn-color:hover {
+            background-color: #0093DD;
+            color: #fff;
+        }
 
     </style>
 </head>
