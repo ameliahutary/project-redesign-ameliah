@@ -59,3 +59,9 @@ nav.navbar {
     width: 100%;
     object-fit: cover;
 }
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang dengan opasitas */
+    color: white; /* Warna teks */
+    border-radius: 5px; /* Sudut bulat pada caption */
+    padding: 10px; /* Ruang di sekitar teks */
+}
