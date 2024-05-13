@@ -150,7 +150,10 @@ nav.navbar {
     background-color: #f0f0f0;
     text-align: center;
 }
-
+.portal-siswa h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .portal-siswa .container {
     max-width: 1200px;
     margin-bottom: 20px;
