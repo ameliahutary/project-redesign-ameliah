@@ -28,4 +28,4 @@ Visit the website: [SMA Negeri 1 Weleri](https://sman1weleri.sch.id/)
 <img src="assets/img/screenshots/redesign-website.png" alt="Project Screenshot">
 
 ## 
-&#169; Ameliah utary 2024.
+&#169; Ameliah Utary 2024.
