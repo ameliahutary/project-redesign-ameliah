@@ -24,6 +24,7 @@
 /* NAVBAR */
 nav.navbar {
     padding: 10px 0;
+    background: #333;
 }
 .navbar-nav .nav-item {
     margin-right: 10px;
@@ -81,8 +82,10 @@ nav.navbar {
     padding: 8px 15px; 
     display: inline-block;
     font-size: 12px;
+    background: #333;
 }
 .marquee {
+    background: #333;
     position: absolute;
     padding: 8px 0;
     color: #fff;
