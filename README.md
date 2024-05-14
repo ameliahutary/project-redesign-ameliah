@@ -6,7 +6,7 @@
 [![last-commit](https://img.shields.io/github/last-commit/ameliahutary/project-redesign-ameliah)](https://github.com/ameliahutary/project-redesign-ameliah/commits/main)
 
 # Introduction
-A personal project to redesign the [SMAN 1 Weleri website](https://sman1weleri.sch.id/) before it was redesigned.\
+A personal project to redesign the [SMA Negeri 1 Weleri website](https://sman1weleri.sch.id/) before it was redesigned.\
 This project was made in 2024 and published on GitHub.
 
 ## Technologies
