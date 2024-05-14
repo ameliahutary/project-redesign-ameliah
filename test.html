@@ -1,203 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Section</title>
-  <!-- Bootstrap CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita</title>
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Your custom CSS -->
+    <style>
+        /* Team Section Styling */
+        .team {
+            padding: 60px 0;
+            background: #f7f8fa;
+        }
+
+        .team .section-bg {
+            background-color: #f7f8fa;
+        }
+
+        .team h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            position: relative;
+            color: #333;
+        }
+
+        .team h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #3498db;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 2px;
+        }
+
+        .team .member {
+            margin-bottom: 20px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+            border-radius: 8px;
+        }
+
+        .team .member .pic {
+            overflow: hidden;
+            width: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .team .member .pic img {
+        transition: all 0.3s ease-in-out;
+        }
+
+        .team .member:hover .pic img {
+        transform: scale(1.1);
+        }
+
+        .team .member .member-info {
+        padding-left: 15px;
+        }
+
+        .team .member h4 {
+            font-weight: 700;
+            margin-bottom: 5px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .team .member span {
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+            color: #555;
+        }
+
+        .team .member p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .team .member .social {
+            margin-top: 15px;
+        }
+
+        .team .member .social a {
+            color: #333;
+            transition: color 0.3s;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .team .member .social a:hover {
+            color: #3498db;
+        }
+
+
+    </style>
 </head>
-<style>
-/* Team Section */
-#team {
-  padding: 60px 0;
-}
-
-#team .member {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-}
-
-#team .member img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease-in-out;
-}
-
-#team .member:hover img {
-  transform: scale(1.1);
-}
-
-#team .member-info {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 20px;
-  text-align: center;
-  transition: all 0.3s ease-in-out;
-}
-
-#team .member:hover .member-info {
-  bottom: -50px;
-}
-
-#team .member-info h4 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  font-weight: 700;
-}
-
-#team .member-info span {
-  font-size: 14px;
-  display: block;
-  margin-bottom: 15px;
-  font-weight: 400;
-}
-
-#team .member-info p {
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-#team .social {
-  margin-top: 15px;
-}
-
-#team .social a {
-  transition: color 0.3s;
-  color: #fff;
-  margin: 0 5px;
-}
-
-#team .social a:hover {
-  color: #007bff;
-}
-
-
-</style>
-
 <body>
-
     <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
-      
           <div class="text-center">
-            <h2>Leadership Team</h2>
+            <h2>STAGE HOLDER</h2>
             <hr>
           </div>
       
           <div class="row">
-      
-            <!-- Member 1 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/isa_anshori.jpg" class="img-fluid" alt="Isa Anshori">
+            <div class="col-lg-6" style="margin-top:10px;">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img src="assets/img/icons/image.png" class="img-fluid">
+                </div>
                 <div class="member-info">
-                  <h4>Isa Anshori, S.Pd.M.Si.</h4>
-                  <span>Headmaster</span>
-                  <p>Joined: 17 Jan 2022</p>
+                  <h4>ISA ANSHORI, S.Pd.M.Si.</h4>
+                  <span>Kepala Sekolah</span>
+                  <p>TMT 17 Januari 2022</p>
                   <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="-"><i class="ri-twitter-fill"></i></a>
+                    <a href="Isa Anshori"><i class="ri-facebook-fill"></i></a>
+                    <a href="-"><i class="ri-instagram-fill"></i></a>
+                    <a href="-"><i class="ri-linkedin-box-fill"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-      
-            <!-- Member 2 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/agus_salim.jpg" class="img-fluid" alt="Agus Salim">
-                <div class="member-info">
-                  <h4>Agus Salim S.Pd</h4>
-                  <span>Vice Principal of Student Affairs</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 3 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/sri_wahyuningsih.jpg" class="img-fluid" alt="Sri Wahyuningsih">
-                <div class="member-info">
-                  <h4>Sri Wahyuningsih S.E., M.Si</h4>
-                  <span>Vice Principal of Curriculum</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 4 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/moh_arif_mudhafir.jpg" class="img-fluid" alt="Moh Arif Mudhafir">
-                <div class="member-info">
-                  <h4>Moh Arif Mudhafir, S.PdI</h4>
-                  <span>Vice Principal of Public Relations</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 5 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/dian_permanasari.jpg" class="img-fluid" alt="Dian Permanasari Widyaningrum">
-                <div class="member-info">
-                  <h4>Dian Permanasari Widyaningrum, S.Pd.</h4>
-                  <span>Vice Principal of Facilities</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
           </div>
-      
         </div>
-      </section>
+      </section><!-- End Team Section -->
       
-
-  <!-- Bootstrap JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
-
 </html>
+
