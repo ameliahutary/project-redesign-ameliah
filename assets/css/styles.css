@@ -221,6 +221,7 @@ hr {
 .custom-btn-color {
     color: #0093DD;
     border-color: #0093DD;
+    text-align: left;
 }
 .custom-btn-color:hover {
     background-color: #0093DD;
