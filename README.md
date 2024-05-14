@@ -19,7 +19,7 @@ This project was made in 2024 and published on GitHub.
 [Go to List of Dependencies](https://github.com/ameliahutary/project-redesign-ameliah/network/dependencies)
 
 # Screenshot
-<img src="assets/img/carousel/slide-1.jpg" alt="Project Screenshot">
+<img src="assets/img/screenshots/redesign-website.png" alt="Project Screenshot">
 
 ## 
 &#169; Ameliah utary 2024.
