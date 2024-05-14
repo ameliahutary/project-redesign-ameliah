@@ -25,7 +25,7 @@ This project was made in 2024 and published on GitHub.
 Visit the website: [SMA Negeri 1 Weleri](https://sman1weleri.sch.id/)
 
 ## After
-<img src="" alt="Project Screenshot">
+<img src="assets/img/screenshots/redesign-website.png" alt="Project Screenshot">
 
 ## 
 &#169; Ameliah Utary 2024.
