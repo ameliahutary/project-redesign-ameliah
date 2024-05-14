@@ -180,7 +180,7 @@ hr {
     background-color: #f0f0f0;
     text-align: center;
 }
-.berita h2{
+.berita .container h2{
     margin-bottom: 20px;
     margin-top: 10px;
 }
