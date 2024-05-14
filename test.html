@@ -8,148 +8,48 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Your custom CSS -->
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-        }
-        .container {
-            margin-top: 50px;
-        }
-        .card {
-            border: none;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .card-img-top {
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            height: 200px;
-            object-fit: cover;
-        }
-        .card-bodyy {
-            padding: 20px;
-            height: 150px;
-            text-decoration: none;
-        }
-        .card-bodyy .news-date {
-            font-size: 14px;
-            color: #6c757d;
-            text-decoration: none;
-        }
-        .card-body {
-            padding: 20px;
-        }
-        .news-title {
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #333;
-        }
-        .custom-btn-color {
-            color: #0093DD;
-            border-color: #0093DD;
+        .pagination {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
         }
 
-        .custom-btn-color:hover {
-            background-color: #0093DD;
-            color: #fff;
+        .page-item {
+            margin: 0 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: #007bff;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+        }
+
+        .page-item.active .page-link {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .page-link:hover {
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+            color: #0056b3;
         }
 
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
-                    <div class="card-bodyy">
-                        <span class="news-date">18 Januari 2024</span>
-                        <a href="detail.php?id=47">
-                            <h5 class="news-title">Pengumuman Siswa Eligible Tahun 2023 2024</h5>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
-                    <div class="card-bodyy">
-                        <span class="news-date">29 November 2022</span>
-                        <a href="detail.php?id=47">
-                            <h5 class="news-title">VISI DAN MISI SMAN 1 WELERI</h5>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
-                    <div class="card-bodyy">
-                        <span class="news-date">16 November 2022</span>
-                        <a href="detail.php?id=47">
-                            <h5 class="news-title">Meningkatkan Cinta Nabi dengan Mengenal Kepribadiannya melalui Peringatan Maulid Nabi Muhammad SAW</h5>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
-                    <div class="card-bodyy">
-                        <span class="news-date">16 November 2022</span>
-                        <a href="detail.php?id=47">
-                            <h5 class="news-title">Peneguhan Dharma Cinta Alam dan Kasih Sayang Sesama Manusia, SMA Negeri 1 Weleri Menghijaukan Lingkungan</h5>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
-                    <div class="card-bodyy">
-                        <span class="news-date">01 November 2022</span>
-                        <a href="detail.php?id=47">
-                            <h5 class="news-title">Asyiknya Bermain Peran untuk menumbuhkan pengetahuan siswa dalam Materi Sistem Imun</h5>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="assets/img/carousel/slide-1.jpg" class="card-img-top" alt="news">
-                    <div class="card-bodyy">
-                        <span class="news-date">07 Juni 2022</span>
-                        <a href="detail.php?id=47">
-                            <h5 class="news-title">KEGIATAN PENDAMPINGAN UTBK SMA NEGERI 1 WELERI</h5>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="paging">
+        <ul class="pagination">
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="?hal=home&amp;page=2">2</a></li>
+            <li class="page-item"><a class="page-link" href="/index.php?hal=home&amp;page=2">»</a></li>
+        </ul>
     </div>
+    
     <!-- Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
