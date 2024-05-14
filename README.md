@@ -6,7 +6,7 @@
 [![last-commit](https://img.shields.io/github/last-commit/ameliahutary/project-redesign-ameliah)](https://github.com/ameliahutary/project-redesign-ameliah/commits/main)
 
 # Introduction
-A personal project to redesign a website.\
+A personal project to redesign the [SMAN 1 Weleri website](https://sman1weleri.sch.id/) before it was redesigned.\
 This project was made in 2024 and published on GitHub.
 
 ## Technologies
@@ -19,6 +19,11 @@ This project was made in 2024 and published on GitHub.
 [Go to List of Dependencies](https://github.com/ameliahutary/project-redesign-ameliah/network/dependencies)
 
 # Screenshot
+## Before
+<img src="assets/img/screenshots/screencapture-sman1weleri-sch-id-2024-05-14-23_55_05.png" alt="Website Screenshot">
+Visit the website: [SMAN 1 Weleri](https://sman1weleri.sch.id/)
+
+## After
 <img src="assets/img/screenshots/redesign-website.png" alt="Project Screenshot">
 
 ## 
