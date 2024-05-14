@@ -8,99 +8,63 @@
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Custom CSS -->
     <style>
         /* Footer Styling */
         .footer {
             background: #333;
             color: #fff;
-            padding: 40px 0;
+            padding: 20px 0;
+            text-align: center;
         }
 
-        .footer .footer-info,
-        .footer .footer-map,
-        .footer .footer-contact,
-        .footer .footer-social {
-            margin-bottom: 30px;
+        .footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .footer .footer-info h4,
-        .footer .footer-contact h4,
-        .footer .footer-social h4 {
-            font-size: 18px;
-            margin-bottom: 20px;
-            position: relative;
-            padding-bottom: 10px;
-            color: #fff;
-        }
-
-        .footer .footer-info p,
-        .footer .footer-contact p {
-            color: #bbb;
-            margin-bottom: 10px;
-        }
-
-        .footer .footer-social a {
-            color: #fff;
-            font-size: 18px;
-            margin-right: 10px;
-            transition: color 0.3s;
-        }
-
-        .footer .footer-social a:hover {
-            color: #3498db;
-        }
-
-        .footer .footer-map {
-            height: 200px;
+        .footer .map-container {
             width: 100%;
+            max-width: 600px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .footer .social a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+
+        .footer .social a:hover {
+            color: #3498db;
         }
     </style>
 </head>
 
 <body>
-    <!-- Footer Section -->
+    <!-- Content of your page -->
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 footer-info">
-                    <h4>Tentang Kami</h4>
-                    <p>Kami adalah organisasi yang berdedikasi untuk menyediakan informasi yang bermanfaat dan pelayanan terbaik kepada masyarakat.</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-map">
-                    <h4>Lokasi Kami</h4>
-                    <div id="map"></div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-contact">
-                    <h4>Kontak Kami</h4>
-                    <p>
-                        Jl. Contoh No.123<br>
-                        Kota, Provinsi, 12345<br>
-                        Indonesia<br><br>
-                        <strong>Telepon:</strong> +62 123 456 789<br>
-                        <strong>Email:</strong> info@example.com<br>
-                    </p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-social">
-                    <h4>Ikuti Kami</h4>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+            <div class="map-container" id="map"></div>
+            <div class="social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
+            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- Google Maps API -->
+    <!-- Google Maps JS -->
     <script>
         function initMap() {
-            var location = { lat: -6.200000, lng: 106.816666 }; // Ganti dengan koordinat lokasi Anda
+            var location = { lat: -6.200000, lng: 106.816666 };
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
+                zoom: 14,
                 center: location
             });
             var marker = new google.maps.Marker({
