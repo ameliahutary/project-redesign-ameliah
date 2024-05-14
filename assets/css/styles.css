@@ -301,3 +301,89 @@ hr {
         font-size: 12px;
     }
 }
+
+/* TEAM */
+.team {
+    padding: 60px 0;
+    background: #f7f8fa;
+}
+.team .section-bg {
+    background-color: #f7f8fa;
+}
+.team h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #333;
+}
+.team h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #3498db;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.team .member .pic {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.team .member .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.team .member .member-info {
+    padding-left: 15px;
+    margin: 15px;
+}
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+.team .member span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0093DD;
+    font-weight: bold;
+}
+.team .member p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+.team .member .social {
+    margin-top: 15px;
+}
+.team .member .social a {
+    color: #333;
+    transition: color 0.3s;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.team .member .social a:hover {
+    color: #3498db;
+}
