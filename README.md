@@ -1,4 +1,4 @@
-# Project Redesign AmeliaH
+# Project Redesign Ameliah
 [![issues](https://img.shields.io/github/issues/ameliahutary/project-redesign-ameliah)](https://github.com/ameliahutary/project-redesign-ameliah/issues)
 [![language](https://img.shields.io/github/languages/count/ameliahutary/project-redesign-ameliah)](https://github.com/ameliahutary/project-redesign-ameliah/search?l=css)
 [![top-language](https://img.shields.io/github/languages/top/ameliahutary/project-redesign-ameliah)](https://github.com/ameliahutary/project-redesign-ameliah/search?l=css)
@@ -11,7 +11,7 @@ This project was made in 2024 and published on GitHub.
 
 ## Technologies
 [![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=orange)](https://github.com/ameliahutary?tab=repositories&language=html)
-[![CSS](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3&logoColor=blue)](https://github.com/ameliahutary?tab=repositories&language=css)
+[![CSS](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=css3&logoColor=blue)](https://github.com/ameliahutary?tab=repositories&language=css)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/ameliahutary?tab=repositories&language=javascript)
 [![JQuery](https://img.shields.io/badge/-JQuery-black?style=flat-square&logo=JQuery&logoColor=%230769AD)](https://github.com/ameliahutary?tab=repositories)
 
