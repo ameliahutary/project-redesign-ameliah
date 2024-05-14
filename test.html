@@ -9,60 +9,56 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        /* Footer Styling */
         .footer {
             background: #333;
             color: #fff;
             padding: 20px 0;
-            text-align: center;
         }
 
-        .footer .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .footer a {
+            color: #fff;
+        }
+
+        .footer a:hover {
+            color: #3498db;
         }
 
         .footer .map-container {
             width: 100%;
-            max-width: 600px;
-            height: 300px;
-            margin-bottom: 20px;
-        }
-
-        .footer .social a {
-            color: #fff;
-            margin: 0 10px;
-            font-size: 20px;
-        }
-
-        .footer .social a:hover {
-            color: #3498db;
+            height: 200px;
         }
     </style>
 </head>
 
 <body>
-    <!-- Content of your page -->
 
-    <!-- Footer -->
+    <!-- Other content of the page -->
+
     <footer class="footer">
         <div class="container">
-            <div class="map-container" id="map"></div>
-            <div class="social">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h5>Contact Us</h5>
+                    <p>123 Street Name, City, Country</p>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Our Location</h5>
+                    <div class="map-container" id="map"></div>
+                </div>
             </div>
-            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- Google Maps JS -->
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Google Maps API -->
     <script>
         function initMap() {
-            var location = { lat: -6.200000, lng: 106.816666 };
+            var location = { lat: -6.200000, lng: 106.816666 }; // Ganti dengan koordinat lokasi Anda
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 14,
                 center: location
@@ -74,11 +70,6 @@
         }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
