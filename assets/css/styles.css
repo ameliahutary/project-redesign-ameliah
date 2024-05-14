@@ -203,11 +203,12 @@ hr {
     padding: 20px;
     height: 150px;
     text-decoration: none;
+    text-align: left;
 }
 .card-bodyy .news-date {
     font-size: 14px;
     color: #6c757d;
-    text-align: left;
+    text-decoration: none;
 }
 .card-body {
     padding: 20px;
