@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,11 @@
             padding: 60px 0;
             background: #f7f8fa;
         }
+
         .team .section-bg {
             background-color: #f7f8fa;
         }
+
         .team h2 {
             font-size: 36px;
             font-weight: 700;
@@ -25,6 +28,7 @@
             position: relative;
             color: #333;
         }
+
         .team h2::after {
             content: '';
             display: block;
@@ -50,32 +54,49 @@
             height: 100px;
             border-radius: 50%;
             margin: 15px;
-            object-fit: fill;
+            object-fit: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
         }
+
+        .team .member .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
         .team .member .member-info {
-        padding-left: 15px;
-        margin: 15px;
+            padding-left: 15px;
+            margin: 15px;
         }
+
         .team .member h4 {
             font-weight: 700;
             margin-bottom: 5px;
             font-size: 18px;
             color: #333;
         }
+
         .team .member span {
             display: block;
             font-size: 14px;
             font-weight: 400;
             color: #555;
         }
+
         .team .member p {
             font-size: 14px;
             color: #666;
             margin-top: 10px;
         }
+
         .team .member .social {
             margin-top: 15px;
         }
+
         .team .member .social a {
             color: #333;
             transition: color 0.3s;
@@ -86,10 +107,9 @@
         .team .member .social a:hover {
             color: #3498db;
         }
-
-
     </style>
 </head>
+
 <body>
     <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
@@ -97,7 +117,7 @@
                 <h2>STAGE HOLDER</h2>
                 <hr>
             </div>
-      
+
             <div class="row">
                 <div class="col-lg-6">
                     <div class="member d-flex align-items-start">
@@ -120,15 +140,14 @@
             </div>
         </div>
     </section><!-- End Team Section -->
-      
-    
+
     <!-- Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 </body>
-</html>
 
+</html>
