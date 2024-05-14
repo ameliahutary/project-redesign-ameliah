@@ -238,7 +238,7 @@ hr {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center; 
+    justify-content: start; 
     flex-wrap: wrap; 
 }
 .page-item {
