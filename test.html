@@ -12,10 +12,12 @@
             list-style-type: none;
             padding: 0;
             display: flex;
+            justify-content: center; /* Centers the pagination on the page */
+            flex-wrap: wrap; /* Allows the pagination to wrap on smaller screens */
         }
 
         .page-item {
-            margin: 0 3px;
+            margin: 3px;
         }
 
         .page-link {
@@ -25,6 +27,7 @@
             color: #007bff;
             border: 1px solid #dee2e6;
             border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .page-item.active .page-link {
@@ -37,6 +40,21 @@
             background-color: #e9ecef;
             border-color: #dee2e6;
             color: #0056b3;
+        }
+
+        /* Media Queries for responsive design */
+        @media (max-width: 768px) {
+            .page-link {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .page-link {
+                padding: 4px 8px;
+                font-size: 12px;
+            }
         }
 
     </style>
