@@ -1,203 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berita</title>
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <!-- Your custom CSS -->
-    <style>
-        /* Team Section */
-        #team {
-            padding: 60px 0;
-        }
-
-        #team .member {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease-in-out;
-        }
-
-        #team .member img {
-            width: 100%;
-            height: auto;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        #team .member:hover img {
-            transform: scale(1.1);
-        }
-
-        #team .member-info {
-            background: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 20px;
-            text-align: center;
-            transition: all 0.3s ease-in-out;
-        }
-
-        #team .member:hover .member-info {
-            bottom: -50px;
-        }
-
-        #team .member-info h4 {
-            font-size: 24px;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        #team .member-info span {
-            font-size: 14px;
-            display: block;
-            margin-bottom: 15px;
-            font-weight: 400;
-        }
-
-        #team .member-info p {
-            font-size: 14px;
-            margin-bottom: 0;
-        }
-
-        #team .social {
-            margin-top: 15px;
-        }
-
-        #team .social a {
-            transition: color 0.3s;
-            color: #fff;
-            margin: 0 5px;
-        }
-
-        #team .social a:hover {
-            color: #007bff;
-        }
-
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Section</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <section id="team" class="team section-bg">
-        <div class="container" data-aos="fade-up">
-      
-          <div class="text-center">
-            <h2>Leadership Team</h2>
-            <hr>
-          </div>
-      
-          <div class="row">
-      
-            <!-- Member 1 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/isa_anshori.jpg" class="img-fluid" alt="Isa Anshori">
-                <div class="member-info">
-                  <h4>Isa Anshori, S.Pd.M.Si.</h4>
-                  <span>Headmaster</span>
-                  <p>Joined: 17 Jan 2022</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 2 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/agus_salim.jpg" class="img-fluid" alt="Agus Salim">
-                <div class="member-info">
-                  <h4>Agus Salim S.Pd</h4>
-                  <span>Vice Principal of Student Affairs</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 3 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/sri_wahyuningsih.jpg" class="img-fluid" alt="Sri Wahyuningsih">
-                <div class="member-info">
-                  <h4>Sri Wahyuningsih S.E., M.Si</h4>
-                  <span>Vice Principal of Curriculum</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 4 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/moh_arif_mudhafir.jpg" class="img-fluid" alt="Moh Arif Mudhafir">
-                <div class="member-info">
-                  <h4>Moh Arif Mudhafir, S.PdI</h4>
-                  <span>Vice Principal of Public Relations</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Member 5 -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img src="waka/dian_permanasari.jpg" class="img-fluid" alt="Dian Permanasari Widyaningrum">
-                <div class="member-info">
-                  <h4>Dian Permanasari Widyaningrum, S.Pd.</h4>
-                  <span>Vice Principal of Facilities</span>
-                  <p>-</p>
-                  <div class="social">
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-          </div>
-      
-        </div>
-      </section>
-      
 
-    
-    <!-- Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
+  <section id="team" class="team section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="text-center">
+        <h2>STAGE HOLDER</h2>
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" style="margin-top:10px;">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pic"><img src="waka/" class="img-fluid"></div>
+            <div class="member-info">
+              <h4>ISA ANSHORI, S.Pd.M.Si.</h4>
+              <span>Kepala Sekolah</span>
+              <p>TMT 17 Januari 2022</p>
+              <div class="social">
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="Isa Anshori"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more team members here with the same structure -->
+
+      </div>
+
+    </div>
+  </section><!-- End Team Section -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
