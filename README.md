@@ -21,7 +21,8 @@ This project was made in 2024 and published on GitHub.
 # Screenshot
 ## Before
 <img src="assets/img/screenshots/screencapture-sman1weleri-sch-id-2024-05-14-23_55_05.png" alt="Website Screenshot">
-Visit the website: [SMAN 1 Weleri](https://sman1weleri.sch.id/)
+
+Visit the website: [SMA Negeri 1 Weleri](https://sman1weleri.sch.id/)
 
 ## After
 <img src="assets/img/screenshots/redesign-website.png" alt="Project Screenshot">
