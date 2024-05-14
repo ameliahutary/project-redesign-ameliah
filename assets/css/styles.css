@@ -156,6 +156,9 @@ nav.navbar {
 .portal-siswa h2 {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
 }
 .portal-siswa .container {
     max-width: 1200px;
@@ -188,6 +191,9 @@ hr {
 .berita .container h2{
     margin-bottom: 30px;
     margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
 }
 .card {
     border: none;
