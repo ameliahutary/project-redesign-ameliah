@@ -1,50 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Section</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-
-  <section id="team" class="team section-bg">
-    <div class="container" data-aos="fade-up">
-
-      <div class="text-center">
-        <h2>STAGE HOLDER</h2>
-        <hr>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6" style="margin-top:10px;">
-          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pic"><img src="waka/" class="img-fluid"></div>
-            <div class="member-info">
-              <h4>ISA ANSHORI, S.Pd.M.Si.</h4>
-              <span>Kepala Sekolah</span>
-              <p>TMT 17 Januari 2022</p>
-              <div class="social">
-                <a href="#"><i class="ri-twitter-fill"></i></a>
-                <a href="Isa Anshori"><i class="ri-facebook-fill"></i></a>
-                <a href="#"><i class="ri-instagram-fill"></i></a>
-                <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
-              </div>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto d-flex align-items-center">
+                    <a class="header-logo" href="index.html"><img src="assets/img/icons/image.png" alt="logo" /></a>
+                </div>
+                <div class="col-md-auto d-flex align-items-center">
+                    <div class="header-text">
+                        <h1>SMA NEGERI 1 WELERI</h1>
+                        <p class="d-none d-md-block">Wirausaha & Adiwiyata</p>
+                        <p class="d-none d-md-block">Mewujudkan manusia Berbudi Pekerti Luhur, Berprestasi Unggul, Berwawasan lingkungan dan Berjiwa Wirausaha</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-
-        <!-- Add more team members here with the same structure -->
-
-      </div>
-
     </div>
-  </section><!-- End Team Section -->
+    <!-- END HEADER -->
 
-  <!-- Bootstrap JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" ></a>
+            <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="custom-toggler navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kurikulum.html">Kurikulum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kesiswaan.html">Kesiswaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sarpras.html">Sarpras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="humas.html">Humas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://smart.sman1weleri.sch.id/tas/">Ketenagaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://smart.sman1weleri.sch.id/alumni/">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="komite.html">Komite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wirausaha.html">Wirausaha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adiwiyata.html">Adiwiyata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                </ul>
+                <form action="/search" method="GET" class="search-form">
+                    <input type="text" name="query" placeholder="Cari..." class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                
+                <a href="login.php">
+                    <button class="btn btn-outline-success" type="button">Login</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- CAROUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel/slide-1.jpg" class="d-block w-100" alt="slide-1">
+                <div class="carousel-caption d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel/slide-2.jpeg" class="d-block w-100" alt="slide-2">
+                <div class="carousel-caption d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel/slide-3.jpg" class="d-block w-100" alt="slide-3">
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- END CAROUSEL -->
+
+    <!-- PENGUMUMAN -->
+    <div class="col-md-6" id="js-conveyor-example">
+        <strong class="pengumuman bg-dark">BREAKING NEWS : </strong>
+        <marquee class="marquee bg-dark" onmouseover="this.stop();" onmouseout="this.start();">
+            <span><a class="hvr" href="https://sman1weleri.sch.id/detail.php?id=55">Pengumuman Siswa Eligible Tahun 2023-2024</a> | </span>
+            <span><a class="hvr" href="https://sman1weleri.sch.id/detail.php?id=52">Gelar Karya P5_SMAN 1 Weleri</a> | </span>
+            <span><a class="hvr" href="https://sman1weleri.sch.id/detail.php?id=51">Gelar Karya P5_SMAN 1 Weleri</a> | </span>
+            <span><a class="hvr" href="https://sman1weleri.sch.id/detail.php?id=50">SMA Negeri 1 Weleri : Kewirausahaan berbasis Adiwiyata</a></span>
+        </marquee>
+    </div>
+    <!-- END PENGUMUMAN -->
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <img class="img-fluid" src="assets/img/content/about.jpg" alt="about">
+                </div>
+                <div class="col-md-7 text-center text-md-start">
+                    <h5 class="fw-bold mb-4 mt-4 mt-md-0">About Our School</h5>
+                    <h2 class="fw-bold mb-4 mt-4 mt-md-0">SMA NEGERI 1 WELERI</h2>
+                    <p class="mb-4">
+                        SMA Negeri 1 Weleri didirikan pada tanggal 9 Oktober 1982 melalui Surat Keputusan Menteri Pendidikan dan Kebudayaan Nomor 0298/0/1982. Keputusan ini berlaku surut terhitung mulai 1 Juli 1982.
+                    </p>
+                    <a href="https://sman1weleri.sch.id/detail.php?id=13" class="btn btn-custom">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- SELAYANG-PANDANG -->
+    <section class="selayang-pandang">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 text-center-md text-md-start">
+                    <h2 class="fw-bold mb-4 mt-4 mt-md-0">SELAYANG PANDANG KEPALA SEKOLAH</h2>
+                    <p>
+                        Era globalisasi dengan segala implikasinya menjadi salah satu pemicu cepatnya perubahan yang terjadi pada berbagai aspek kehidupan masyarakat, dan bila tidak ada upaya sungguh-sungguh untuk mengantisipasinya maka hal tersebut akan menjadi maslah yang sangat serius. Dalam hal ini dunia pendidikan mempunyai tanggung jawab yang besar, terutama dalam menyiapkan sumber daya manusia yang tangguh sehingga mampu hidup selaras didalam perubahan itu sendiri. Pendidikan merupakan investasi jangka panjang yang hasilnya tidak dapat dilihat dan dirasakan secara instan, sehingga sekolah sebagai ujung tombak dilapangan harus memiliki arah pengembangan jangka panjang dengan tahapan pencapaiannya yang jelas dan tetap mengakomodir tuntutan permasalahan faktual kekinian yang ada di masyarakat.
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- END SELAYANG-PANDANG -->
+    
+    <!-- PORTAL -->
+    <section class="portal-siswa">
+        <h2>PORTAL SEKOLAH</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/">
+                            <img src="assets/img/portal/1.png" class="card-img-top" alt="CBT">
+                        </a>
+                    </div>
+                    <h6>CBT</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/rapor/index.php">
+                            <img src="assets/img/portal/2.png" class="card-img-top" alt="RAPOR">
+                        </a>
+                    </div>
+                    <h6>RAPOR</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/lms/masukpresensi.php">
+                            <img src="assets/img/portal/3.png" class="card-img-top" alt="ADMIN PRESENSI">
+                        </a>
+                    </div>
+                    <h6>ADMIN PRESENSI</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://sman1weleri.sch.id/ppdb.php">
+                            <img src="assets/img/portal/4.png" class="card-img-top" alt="PPDB">
+                        </a>
+                    </div>
+                    <h6>PPDB</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/lms/">
+                            <img src="assets/img/portal/5.png" class="card-img-top" alt="LMS">
+                        </a>
+                    </div>
+                    <h6>LMS</h6>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/osis/osis.php?state=pengumuman">
+                            <img src="assets/img/portal/6.png" class="card-img-top" alt="PILKETOS">
+                        </a>
+                    </div>
+                    <h6>PILKETOS</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/eds/index.php">
+                            <img src="assets/img/portal/7.png" class="card-img-top" alt="EDS">
+                        </a>
+                    </div>
+                    <h6>EDS</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/alumni/">
+                            <img src="assets/img/portal/8.png" class="card-img-top" alt="ALUMNI">
+                        </a>
+                    </div>
+                    <h6>ALUMNI</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/lms/kesiswaan.php">
+                            <img src="assets/img/portal/9.png" class="card-img-top" alt="KESISWAAN/BK">
+                        </a>
+                    </div>
+                    <h6>KESISWAAN/BK</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="https://smart.sman1weleri.sch.id/kelulusan/index.php">
+                            <img src="assets/img/portal/10.png" class="card-img-top" alt="PENGUMUMAN KELULUSAN">
+                        </a>
+                    </div>
+                    <h6>PENGUMUMAN KELULUSAN</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PORTAL -->
+    <hr>
+    <!-- BERITA -->
+    <section class="berita">
+        <div class="container">
+            <h2>NEWS</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/berita/news-1.png" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">18 Januari 2024</span>
+                            <a href="detail.php?id=47">
+                                <h5 class="news-title">Pengumuman Siswa Eligible Tahun 2023 2024</h5>
+                            </a>
+                        </div>
+                        <div class="card-body text-start">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/berita/news-2.png" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">29 November 2022</span>
+                            <a href="detail.php?id=47">
+                                <h5 class="news-title">VISI DAN MISI SMAN 1 WELERI</h5>
+                            </a>
+                        </div>
+                        <div class="card-body text-start">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/berita/news-3.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">16 November 2022</span>
+                            <a href="detail.php?id=47">
+                                <h5 class="news-title">Meningkatkan Cinta Nabi dengan Mengenal Kepribadiannya melalui Peringatan Maulid Nabi Muhammad SAW</h5>
+                            </a>
+                        </div>
+                        <div class="card-body text-start">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/berita/news-4.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">16 November 2022</span>
+                            <a href="detail.php?id=47">
+                                <h5 class="news-title">Peneguhan Dharma Cinta Alam dan Kasih Sayang Sesama Manusia, SMA Negeri 1 Weleri Menghijaukan Lingkungan</h5>
+                            </a>
+                        </div>
+                        <div class="card-body text-start">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/berita/news-5.jpg" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">01 November 2022</span>
+                            <a href="detail.php?id=47">
+                                <h5 class="news-title">Asyiknya Bermain Peran untuk menumbuhkan pengetahuan siswa dalam Materi Sistem Imun</h5>
+                            </a>
+                        </div>
+                        <div class="card-body text-start">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/berita/news-6.png" class="card-img-top" alt="news">
+                        <div class="card-bodyy">
+                            <span class="news-date">07 Juni 2022</span>
+                            <a href="detail.php?id=47">
+                                <h5 class="news-title">KEGIATAN PENDAMPINGAN UTBK SMA NEGERI 1 WELERI</h5>
+                            </a>
+                        </div>
+                        <div class="card-body text-start">
+                            <button class="btn btn-outline-primary rounded-pill custom-btn-color" type="submit" onclick="window.location.href='link_artikel.php'">Baca Lengkap Artikel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PAGINATION -->
+            <div class="paging">
+                <ul class="pagination">
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="?hal=home&amp;page=2">2</a></li>
+                    <li class="page-item"><a class="page-link" href="/index.php?hal=home&amp;page=2">»</a></li>
+                </ul>
+            </div>
+            <!-- PAGINATION -->
+        </div>
+    </section>
+    <!-- END BERITA -->
+    <hr>
+    
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
